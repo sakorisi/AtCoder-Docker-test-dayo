@@ -5,13 +5,13 @@
 
 ## 使い方
 
-### 1. ファイルのダウンロード、または、クローンを行います。
-クローンする場合
+### 1. ファイルのダウンロード、または、クローンを行います
+下はクローンする場合です。
 ```
 git clone https://github.com/sakorisi/AtCoder-Docker-test-dayo.git
 ```
 
-### 2. サービスを上げます。
+### 2. サービスを上げます
 よいしょ。
 
 初回
@@ -24,12 +24,12 @@ docker-compose up --build -d
 docker-compose up -d
 ```
 
-### 3. コンテナに入ります。
+### 3. コンテナに入ります
 ```
 docker-compose exec atcoder bash
 ```
 
-### 4. ファイルを実行します。(例)
+### 4. ファイルを実行します(例)
 test.cpp と test.py を実行する例です。
 
 ```
@@ -41,7 +41,7 @@ g++ -std=c++20 test.cpp
 python test.py
 ```
 
-### 5. サービスを下げます。
+### 5. サービスを下げます
 停止とも言います。
 ```
 exit
