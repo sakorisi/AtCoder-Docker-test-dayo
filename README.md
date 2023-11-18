@@ -10,6 +10,7 @@
 ```
 git clone https://github.com/sakorisi/AtCoder-Docker-test-dayo.git
 ```
+以降、"./AtCoder-Docker-test-dayo/"ディレクトリにいる想定です。
 
 ### 2. サービスを上げます。
 よいしょ。
